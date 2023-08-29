@@ -17,8 +17,9 @@ export default function Intro(){
                 <div className="i-name">
                     <span>Hey! I Am</span>
                     <span>Lakshay Rohilla</span>
-                    <span>Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work </span>
+                    <span>Web developer and web designer with 2.5+ years of experience dedicated to developing and optimizing 
+                        interactive, user-friendly, and feature-rich websites. Leverage analytical skills , data structure and algorithm & strong attention 
+                        to detail in order to deliver original and efficient web solutions & build new websites from scratch.</span>
                 </div>
                 <button className="button i-button">Hire me</button>
                     <div className="i-icons">
