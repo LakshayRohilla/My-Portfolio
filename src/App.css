@@ -30,7 +30,7 @@
 .button:hover {
   cursor: pointer;
   color: var(--orange);
-  cursor: pointer;
+  background: white;
   border: 1px solid var(--orange);
 }
 
