@@ -1,0 +1,46 @@
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.n-left{
+    flex:1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.n-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.n-right{
+    flex:1;
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.n-list{
+    /* So that we could have all the items in once row. */
+    flex: 10; 
+}
+
+.n-list>ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+}
+.n-list>ul>li:hover {
+    cursor: pointer;
+    color: var(--orange);
+}
+
+/* For the ****button**** we are adding the CSS in the app.css file to have to common styling throughout the application. */
+
+.n-button{
+    flex: 2; 
+}
