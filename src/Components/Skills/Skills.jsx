@@ -17,8 +17,7 @@ export default function Skills() {
                 <a href={Resume} download>
                     <button className="button s-button">Download Resume</button>
                 </a>
-                
-                <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
+                <div className="s-blur1 blur " style={{ background: "#ABF1FF94" }}>nkkkjnkjnkjnknkjn</div>
             </div>
             {/* {right side} */}
             <div className="cards">
@@ -50,6 +49,7 @@ export default function Skills() {
                     description={'Jira, Jenkins, Swagger, Postman, Insomnia, Draw.io, Linters, make, poetry, pydantic'}
                     />
                 </div>        
+                <div className="blur s-blur2" style={{ background: "var(--purple)" }}></div>
             </div>
         </div>      
     )
