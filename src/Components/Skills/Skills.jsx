@@ -4,6 +4,7 @@ import kubernatesLogo from '../../img/kubernatesLogo.png';
 import reactLogo from '../../img/reactLogo.png';
 import swaggerLogo from '../../img/swaggerLogo.png';
 import Card from '../Card/Card';
+import Resume from './Resume.pdf';
 
 export default function Skills() {
     return (
@@ -13,7 +14,10 @@ export default function Skills() {
                 <span>My Technical</span>
                 <span>Skills</span>
                 <span>These are the tech stack I worked on till now !</span>
-                <button className="button s-button">Download Resume</button>
+                <a href={Resume} download>
+                    <button className="button s-button">Download Resume</button>
+                </a>
+                
                 <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
             </div>
             {/* {right side} */}
