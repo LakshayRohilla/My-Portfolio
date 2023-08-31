@@ -11,7 +11,7 @@ export default function Skills() {
         <div className="skills">
             {/* {left side} */}
             <div className="awesome">
-                <span>My Technical</span>
+                <span>Technical</span>
                 <span>Skills</span>
                 <span>These are the tech stack I worked on till now !</span>
                 <a href={Resume} download>
