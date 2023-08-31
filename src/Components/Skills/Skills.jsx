@@ -32,7 +32,7 @@ export default function Skills() {
                     <Card 
                     image={reactLogo} 
                     heading={'Frameworks'} 
-                    description={'FastAPI, Angular, React, Bootstrap, Plasm'}
+                    description={'FastAPI, Angular, React, Bootstrap, Plasma'}
                     />
                 </div>    
                 <div style={{top:"18rem", left: '20rem'}}>
