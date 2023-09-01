@@ -24,6 +24,9 @@ export default function Projects(){
                     className="projects-slider"
             >
                 <SwiperSlide>
+                    <span>TODO :::::   Add portfolio .......!!!!!!!!! Here............./</span>
+                </SwiperSlide>
+                <SwiperSlide>
                     <a href="https://bankist-application-lr.netlify.app/" target='_blank'><img src={bankApp} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
