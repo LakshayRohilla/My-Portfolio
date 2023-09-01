@@ -24,31 +24,31 @@ export default function Projects(){
                     className="projects-slider"
             >
                 <SwiperSlide>
-                    <img src={bankApp} alt="" />
+                    <a href="https://bankist-application-lr.netlify.app/" target='_blank'><img src={bankApp} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={ajaxApp} alt="" />
+                    <a href="https://ajax-call-lr.netlify.app/" target='_blank'><img src={ajaxApp} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={diceGame} alt="" />
+                    <a href="https://dice-game-lr.netlify.app/" target='_blank'><img src={diceGame} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={guessGanme} alt="" />
+                    <a href="https://guess-my-number-lr.netlify.app/" target='_blank'><img src={guessGanme} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={inputApp} alt="" />
+                    <a href="https://add-user-with-error-popup-lr.netlify.app/" target='_blank'><img src={inputApp} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={mobxApp} alt="" />
+                    <a href="https://react-mobx-counter-lr.netlify.app/" target='_blank'><img src={mobxApp} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={reduxAuth} alt="" />
+                    <a href="https://reduxjs-toolkit-counter-auth-lr.netlify.app/" target='_blank'><img src={reduxAuth} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={reduxCounter} alt="" />
+                    <a href="https://redux-counter-lr.netlify.app/" target='_blank'><img src={reduxCounter} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={todoApp} alt="" />
+                    <a href="https://react-to-do-app-lr.netlify.app/" target='_blank'><img src={todoApp} alt="" /></a>
                 </SwiperSlide>
             </Swiper>
 
