@@ -1,7 +1,7 @@
 import './Intro.css'
 import Github from '../../img/github.png';
 import LinkedIn from '../../img/linkedin.png';
-import Instagram from '../../img/instagram.png';
+// import Instagram from '../../img/instagram.png';
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 import boy from "../../img/lakshay1.png";
@@ -9,6 +9,8 @@ import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
+import Stackover from '../../img/stackover.png';
+
 
 export default function Intro(){
     return (
@@ -23,9 +25,10 @@ export default function Intro(){
                 </div>
                 <button className="button i-button">Hire me</button>
                     <div className="i-icons">
-                        <a href='https://github.com/LakshayRohilla'><img src={Github} alt="Github" /></a>
-                        <a href="https://www.linkedin.com/in/lakshay-rohilla-02a23a119/"><img src={LinkedIn} alt="LinkedIn" /></a>
-                        <img src={Instagram} alt="Github" />
+                        <a href='https://github.com/LakshayRohilla' target='_blank' rel="noreferrer"><img src={Github} alt="Github" /></a>
+                        <a href="https://www.linkedin.com/in/lakshay-rohilla-02a23a119/" target='_blank' rel="noreferrer"><img src={LinkedIn} alt="LinkedIn" /></a>
+                        {/* <img src={Instagram} alt="Github" />  replaced this icon with the stackover one */}
+                        <a href="https://stackoverflow.com/users/16876542/lakshay-rohilla" target='_blank' rel="noreferrer"><img src={Stackover} alt="LinkedIn" className='sicon'/></a>
                     </div>
             </div>
             <div className="i-right">
