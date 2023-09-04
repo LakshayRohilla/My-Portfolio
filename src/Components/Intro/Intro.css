@@ -57,7 +57,8 @@
 /* right side styling */
 .i-right {
   flex: 1;
-  position: relative;
+  position: relative; 
+  /* Read the below line just becasue of that we are using position, else just by flex property we could have the right and left. */
   /* We are making outer div as relative so that using the absolute in the child tags we could overlap then */
 }
 
