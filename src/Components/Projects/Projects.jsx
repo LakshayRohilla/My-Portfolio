@@ -27,31 +27,31 @@ export default function Projects(){
                     <span>TODO :::::   Add portfolio .......!!!!!!!!! Here............./</span>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://bankist-application-lr.netlify.app/" target='_blank'><img src={bankApp} alt="" /></a>
+                    <a href="https://bankist-application-lr.netlify.app/" target='_blank' rel="noreferrer"><img src={bankApp} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://ajax-call-lr.netlify.app/" target='_blank'><img src={ajaxApp} alt="" /></a>
+                    <a href="https://ajax-call-lr.netlify.app/" target='_blank' rel="noreferrer"><img src={ajaxApp} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://dice-game-lr.netlify.app/" target='_blank'><img src={diceGame} alt="" /></a>
+                    <a href="https://dice-game-lr.netlify.app/" target='_blank' rel="noreferrer"><img src={diceGame} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://guess-my-number-lr.netlify.app/" target='_blank'><img src={guessGanme} alt="" /></a>
+                    <a href="https://guess-my-number-lr.netlify.app/" target='_blank' rel="noreferrer"><img src={guessGanme} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://add-user-with-error-popup-lr.netlify.app/" target='_blank'><img src={inputApp} alt="" /></a>
+                    <a href="https://add-user-with-error-popup-lr.netlify.app/" target='_blank' rel="noreferrer"><img src={inputApp} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://react-mobx-counter-lr.netlify.app/" target='_blank'><img src={mobxApp} alt="" /></a>
+                    <a href="https://react-mobx-counter-lr.netlify.app/" target='_blank' rel="noreferrer"><img src={mobxApp} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://reduxjs-toolkit-counter-auth-lr.netlify.app/" target='_blank'><img src={reduxAuth} alt="" /></a>
+                    <a href="https://reduxjs-toolkit-counter-auth-lr.netlify.app/" target='_blank' rel="noreferrer"><img src={reduxAuth} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://redux-counter-lr.netlify.app/" target='_blank'><img src={reduxCounter} alt="" /></a>
+                    <a href="https://redux-counter-lr.netlify.app/" target='_blank' rel="noreferrer"><img src={reduxCounter} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://react-to-do-app-lr.netlify.app/" target='_blank'><img src={todoApp} alt="" /></a>
+                    <a href="https://react-to-do-app-lr.netlify.app/" target='_blank' rel="noreferrer"><img src={todoApp} alt="" /></a>
                 </SwiperSlide>
             </Swiper>
 
