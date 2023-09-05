@@ -7,11 +7,15 @@ import Card from '../Card/Card';
 import Resume from './Resume.pdf';
 import { useContext } from "react";
 import { themeContext } from "../../Context";
+import { motion } from "framer-motion";
 
 export default function Skills() {
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
     
+    // transition
+    const transition = { duration: 1, type: "spring"};
+
     return (
         <div className="skills">
             {/* {left side} */}
@@ -26,34 +30,42 @@ export default function Skills() {
             </div>
             {/* {right side} */}
             <div className="cards">
-                <div style={{left: '14rem'}}>
+                <motion.div initial={{ left: "25rem" }} whileInView={{ left: "14rem" }} transition={transition} className="floating-div">
+                {/* <div style={{left: '14rem'}}> */}
                     <Card 
                     image={javascriptLogo} 
                     heading={'Languages'} 
                     description={'JavaScript, Python, SQL, HTML, CSS, Linux/Unix Shell Scripting, Web Services(RESRful)'}
                     />
-                </div> 
-                <div style={{top:"5rem", left: '-4rem'}}>
+                {/* </div> */}
+                </motion.div>
+                <motion.div initial={{ top: "5rem", left: "-11rem" }} whileInView={{ left: "-4rem" }} transition={transition} className="floating-div">
+                {/* <div style={{top:"5rem", left: '-4rem'}}> */}
                     <Card 
                     image={reactLogo} 
                     heading={'Frameworks'} 
                     description={'FastAPI, Angular, React, Bootstrap, Plasma'}
                     />
-                </div>    
-                <div style={{top:"18rem", left: '20rem'}}>
+                {/* </div> */}
+                </motion.div>
+                <motion.div initial={{ top: "18rem", left: "28rem" }} whileInView={{ left: "20rem" }} transition={transition} className="floating-div">
+                {/* <div style={{top:"18rem", left: '20rem'}}> */}
                     <Card 
                     image={kubernatesLogo} 
                     heading={'DevOps Tools'} 
                     description={'Kubernates, Git, Docker, Gitea, Bitbucket, Gitlab'}
                     />
-                </div>  
-                <div style={{top:"23rem", left: '2rem'}}>
+                {/* </div> */}
+                </motion.div>
+                <motion.div initial={{ top: "23rem", left: "-8rem" }} whileInView={{ left: "2rem" }} transition={transition} className="floating-div">
+                {/* <div style={{top:"23rem", left: '2rem'}}> */}
                     <Card 
                     image={swaggerLogo} 
                     heading={'Frameworks'} 
                     description={'Jira, Jenkins, Swagger, Postman, Insomnia, Draw.io, Linters, make, poetry, pydantic'}
                     />
-                </div>        
+                {/* </div>         */}
+                </motion.div>
                 <div className="blur s-blur2" style={{ background: "var(--purple)" }}></div>
             </div>
         </div>      
