@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css"
+import Toggle from "../Toggle/Toggle";
 
 export default function Navbar() {
     return(
@@ -8,7 +9,7 @@ export default function Navbar() {
                 <div className="n-name">
                     Lakshay
                 </div>
-                <span>toggle</span>
+                <Toggle/>
             </div>
             <div className="n-right">
                 <div className="n-list">

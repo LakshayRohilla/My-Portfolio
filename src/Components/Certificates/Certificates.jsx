@@ -5,9 +5,13 @@ import javascriptCertification from '../../img/JavaScriptCertificate.jpg';
 import { Pagination } from "swiper/modules";
 import 'swiper/css/pagination';
 import 'swiper/css';
+import { useContext } from "react";
+import { themeContext } from "../../Context";
 
 
 export default function Certificates(){
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
     const certificates = [
         {
           img: javascriptCertification,
@@ -47,7 +51,7 @@ export default function Certificates(){
     return (
         <div className="c-wrapper">
             <div className='c-heading'>
-                <span>Completed</span>
+                <span style={{ color: darkMode ? "white" : "" }}>Completed</span>
                 <span>Certifications</span>
             </div>
             <div className='myBlur'>
