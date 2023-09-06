@@ -6,6 +6,7 @@ import facebook from '../../img/Facebook.png';
 import amazon from '../../img/amazon.png';
 import { useContext } from "react";
 import { themeContext } from "../../Context";
+import { motion } from "framer-motion";
 
 export default function Experience(){
     const theme = useContext(themeContext);
@@ -37,7 +38,9 @@ export default function Experience(){
                 </div>
             {/* Right side */}
             <div className="e-right">
-                <div className="e-mainCircle">
+                {/* animation */}
+                <motion.div initial={{ rotate: 45 }} whileInView={{ rotate: 0 }} viewport={{ margin: "-40px" }} transition={{ duration: 3, type: "spring" }}className="e-mainCircle">
+                {/* <div className="e-mainCircle"> */}
                     <div className="e-secCircle">
                         <img src={smsDigitalLogo} alt="" />
                     </div>
@@ -53,7 +56,8 @@ export default function Experience(){
                     <div className="e-secCircle">
                         <img src={amazon} alt="" />
                     </div>
-                </div>
+                {/* </div> */}
+                </motion.div>
                 {/* background Circles */}
                 <div className="e-backCircle blueCircle"></div>
                 <div className="e-backCircle yellowCircle"></div>
