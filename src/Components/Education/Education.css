@@ -46,3 +46,8 @@
   .degree :nth-child(2){
     font-weight: bold;
 }
+@media screen and (max-width: 480px){
+    .education{
+        margin-top:20rem;
+    }
+  }
