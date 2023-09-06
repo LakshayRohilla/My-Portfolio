@@ -10,14 +10,18 @@ import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
 import Stackover from '../../img/stackover.png';
+import { useContext } from "react";
+import { themeContext } from "../../Context";
 
 
 export default function Intro(){
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     return (
         <div className="intro">
             <div className="i-left">
                 <div className="i-name">
-                    <span>Hey! I Am</span>
+                    <span style={{ color: darkMode ? "white" : "" }} >Hey! I Am</span>
                     <span>Lakshay Rohilla</span>
                     <span>Web developer and web designer with 2.5+ years of experience dedicated to developing and optimizing 
                         interactive, user-friendly, and feature-rich websites. Leverage analytical skills , data structure and algorithm & strong attention 

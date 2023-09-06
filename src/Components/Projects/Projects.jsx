@@ -10,12 +10,16 @@ import reduxAuth from '../../img/reduxAuth.png';
 import reduxCounter from '../../img/reduxCounterApp.png';
 import todoApp from '../../img/todoApp.png';
 import 'swiper/css';
+import { useContext } from "react";
+import { themeContext } from "../../Context";
 
 export default function Projects(){
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     return (
         <div className='projects'>
             {/* Heading */}
-            <span>Recent Developed</span>
+            <span style={{ color: darkMode ? "white" : "" }}>Recent Developed</span>
             <span>Projects</span>
             {/* Swiper */}
             <Swiper spaceBetween={30}

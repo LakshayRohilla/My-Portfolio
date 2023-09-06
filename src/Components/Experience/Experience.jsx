@@ -4,16 +4,20 @@ import smsGroupLogo from '../../img/smsGroupLogo.png'
 import shopify from '../../img/Shopify.png';
 import facebook from '../../img/Facebook.png';
 import amazon from '../../img/amazon.png';
+import { useContext } from "react";
+import { themeContext } from "../../Context";
 
 export default function Experience(){
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
     return (
         <div className="exp">
             {/* Left side */}
                 <div className="awesome">
-                    <span>Experience</span>
+                    <span style={{ color: darkMode ? "white" : "" }}>Experience</span>
                     <span>Company and Clients</span>
                     <span>
-                        <span className='companyName'> 🏢 SMS Digital :</span>
+                        <span className='companyName' style={{ color: darkMode ? "white" : "" }}> 🏢 SMS Digital :</span>
                         <span className='Domain'>Backend</span>
                         <ul className='domain-list'>
                         <li>Workdone - 1</li>

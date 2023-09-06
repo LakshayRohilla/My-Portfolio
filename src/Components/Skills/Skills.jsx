@@ -5,13 +5,18 @@ import reactLogo from '../../img/reactLogo.png';
 import swaggerLogo from '../../img/swaggerLogo.png';
 import Card from '../Card/Card';
 import Resume from './Resume.pdf';
+import { useContext } from "react";
+import { themeContext } from "../../Context";
 
 export default function Skills() {
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
+    
     return (
         <div className="skills">
             {/* {left side} */}
             <div className="awesome">
-                <span>Technical</span>
+                <span style={{ color: darkMode ? "white" : "" }}>Technical</span>
                 <span>Skills</span>
                 <span>These are the tech stack I worked on till now !</span>
                 <a href={Resume} download>
