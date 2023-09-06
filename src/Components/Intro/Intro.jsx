@@ -52,7 +52,7 @@ export default function Intro(){
                 </motion.div>
                 {/* animation */}
                 <motion.div initial={{ left: "9rem", top: "18rem" }} whileInView={{ left: "0rem" }} transition={transition} className="floating-div">
-                    <FloatingDiv image={thumbup} txt1="An Open" txt2="Book !"/> 
+                    <FloatingDiv image={thumbup} txt1="Team" txt2="Player !"/> 
                 </motion.div>
                 {/* Blur divs behind the right side*/}
                 <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

@@ -59,3 +59,19 @@ textarea{
     top: 1rem;
     left: 12rem;
 }
+
+@media screen and (max-width: 480px) {
+    .contact{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 35rem;
+    }
+    .c-right .user{
+        width: 16rem;
+    }
+    .c-left{
+        flex: 0;
+    }
+
+}   

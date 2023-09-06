@@ -107,3 +107,25 @@
   font-size: 15px;
 }
 
+@media screen and (max-width: 480px) {
+  .exp {
+    flex-direction: column;
+    height: 55rem;
+    padding: 0;
+    gap: 5rem;
+  }
+
+  .e-right {
+    display: flex;
+    align-items: flex-start;
+    justify-content:start;
+    transform: scale(0.7);
+  }
+  .e-mainCircle{
+    position: static;
+  }
+  .e-backCircle{
+    left: 8rem!important;
+  }
+
+}
