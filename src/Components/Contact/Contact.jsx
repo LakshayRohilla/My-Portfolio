@@ -31,7 +31,7 @@ export default function Contact() {
     }
 
     return (
-        <div className="contact">
+        <div className="contact" id='Contact'>
             <div className="c-left">
                 <span style={{ color: darkMode ? "white" : "" }}>Get in touch</span>
                 <span>Contact Me</span>
