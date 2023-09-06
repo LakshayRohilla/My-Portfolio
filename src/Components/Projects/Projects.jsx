@@ -8,6 +8,7 @@ import inputApp from '../../img/inputApp.png';
 import mobxApp from '../../img/mobxApp.png';
 import reduxAuth from '../../img/reduxAuth.png';
 import reduxCounter from '../../img/reduxCounterApp.png';
+import Portfolio from '../../img/portfolio.png';
 import todoApp from '../../img/todoApp.png';
 import 'swiper/css';
 import { useContext } from "react";
@@ -28,7 +29,7 @@ export default function Projects(){
                     className="projects-slider"
             >
                 <SwiperSlide>
-                    <span>TODO :::::   Add portfolio .......!!!!!!!!! Here............./</span>
+                    <a href=""><img src={Portfolio} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
                     <a href="https://bankist-application-lr.netlify.app/" target='_blank' rel="noreferrer"><img src={bankApp} alt="" /></a>
