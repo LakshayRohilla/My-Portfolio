@@ -7,6 +7,7 @@ import amazon from '../../img/amazon.png';
 import { useContext } from "react";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
+import {Link} from 'react-scroll';
 
 export default function Experience(){
     const theme = useContext(themeContext);
@@ -32,7 +33,7 @@ export default function Experience(){
                             <li>Workdone - 3</li>
                         </ul>
                     </span>
-                    <button className="button s-button">Hire Me</button>
+                    <Link to="Contact" spy={true} smooth={true}><button className="button s-button">Hire Me</button></Link>
                     
                     <div className="s-blur1 blur " style={{ background: "#ABF1FF94" }}>nkkkjnkjnkjnknkjn</div>
                 </div>
