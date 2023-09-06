@@ -29,7 +29,7 @@ export default function Projects(){
                     className="projects-slider"
             >
                 <SwiperSlide>
-                    <a href=""><img src={Portfolio} alt="" /></a>
+                    <img src={Portfolio} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
                     <a href="https://bankist-application-lr.netlify.app/" target='_blank' rel="noreferrer"><img src={bankApp} alt="" /></a>
