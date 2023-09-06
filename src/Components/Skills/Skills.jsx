@@ -17,7 +17,7 @@ export default function Skills() {
     const transition = { duration: 1, type: "spring"};
 
     return (
-        <div className="skills">
+        <div className="skills" id='Skills'>
             {/* {left side} */}
             <div className="awesome">
                 <span style={{ color: darkMode ? "white" : "" }}>Technical</span>

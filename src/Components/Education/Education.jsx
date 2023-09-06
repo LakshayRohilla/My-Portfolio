@@ -6,7 +6,7 @@ export default function Education(){
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
     return (
-        <div className="education">
+        <div className="education" id='Education'>
             <div className="degree">
                 <div className="circle">80.8%</div>
                 <span style={{ color: darkMode ? "white" : "" }}>Bachelor</span>

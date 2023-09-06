@@ -49,7 +49,7 @@ export default function Certificates(){
     ];
 
     return (
-        <div className="c-wrapper">
+        <div className="c-wrapper" id='Certificates'>
             <div className='c-heading'>
                 <span style={{ color: darkMode ? "white" : "" }}>Completed</span>
                 <span>Certifications</span>

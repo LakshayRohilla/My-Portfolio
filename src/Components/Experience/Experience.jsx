@@ -12,7 +12,7 @@ export default function Experience(){
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
     return (
-        <div className="exp">
+        <div className="exp" id='Experience'>
             {/* Left side */}
                 <div className="awesome">
                     <span style={{ color: darkMode ? "white" : "" }}>Experience</span>

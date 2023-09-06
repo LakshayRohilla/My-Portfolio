@@ -18,7 +18,7 @@ export default function Projects(){
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
     return (
-        <div className='projects'>
+        <div className='projects' id='Projects'>
             {/* Heading */}
             <span style={{ color: darkMode ? "white" : "" }}>Recent Developed</span>
             <span>Projects</span>
