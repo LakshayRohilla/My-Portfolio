@@ -7,6 +7,7 @@ import Experience from "./Components/Experience/Experience";
 import Projects from "./Components/Projects/Projects";
 import Certificates from "./Components/Certificates/Certificates";
 import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Projects/>
       <Certificates/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
