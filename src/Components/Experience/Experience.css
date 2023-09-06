@@ -118,7 +118,7 @@
   .e-right {
     display: flex;
     align-items: flex-start;
-    justify-content:start;
+    justify-content:flex-start;
     transform: scale(0.7);
   }
   .e-mainCircle{
