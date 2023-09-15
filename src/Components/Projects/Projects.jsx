@@ -10,6 +10,7 @@ import reduxAuth from '../../img/reduxAuth.png';
 import reduxCounter from '../../img/reduxCounterApp.png';
 import Portfolio from '../../img/portfolio.png';
 import todoApp from '../../img/todoApp.png';
+import expenseTrackerApp from '../../img/expenseTrackerApp.png'
 import 'swiper/css';
 import { useContext } from "react";
 import { themeContext } from "../../Context";
@@ -39,6 +40,9 @@ export default function Projects(){
                 </SwiperSlide>
                 <SwiperSlide>
                     <a href="https://dice-game-lr.netlify.app/" target='_blank' rel="noreferrer"><img src={diceGame} alt="" /></a>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <a href="https://expense-tracker-application-lr.netlify.app/" target='_blank' rel="noreferrer"><img src={expenseTrackerApp} alt="" /></a>
                 </SwiperSlide>
                 <SwiperSlide>
                     <a href="https://guess-my-number-lr.netlify.app/" target='_blank' rel="noreferrer"><img src={guessGanme} alt="" /></a>
