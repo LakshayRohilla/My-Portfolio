@@ -30,7 +30,13 @@ export default function Intro(){
                     <span>Lakshay Rohilla</span>
                     <span>Web developer and web designer with 2.5+ years of experience dedicated to developing and optimizing 
                         interactive, user-friendly, and feature-rich websites. Leverage analytical skills , data structure and algorithm & strong attention 
-                        to detail in order to deliver original and efficient web solutions & build new websites from scratch.</span>
+                        to detail in order to deliver original and efficient web solutions & build new websites from scratch.
+                    </span>
+                    {/*<br/>*/}
+                    <span>
+                    With a strong foundation in software development and a commitment to Agile methodologies, I aim to continue creating impactful applications,
+                        collaborating with cross-functional teams, and staying at the forefront of technological advancements in the software development industry.</span>
+
                 </div>
                 <button className="button i-button">Hire me</button>
                     <div className="i-icons">

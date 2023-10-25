@@ -4,7 +4,7 @@ import kubernatesLogo from '../../img/kubernatesLogo.png';
 import reactLogo from '../../img/reactLogo.png';
 import swaggerLogo from '../../img/swaggerLogo.png';
 import Card from '../Card/Card';
-import Resume from './Resume.pdf';
+import Resume from './Lakshay-Rohilla-Resume-2023.pdf';
 import { useContext } from "react";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
